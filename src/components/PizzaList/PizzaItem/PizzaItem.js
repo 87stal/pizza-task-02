@@ -13,7 +13,7 @@ const  PizzaItem = ({ name, ingredients, onAddToCart }) => (
 PizzaItem.propTypes = {
   name: PropTypes.string.isRequired,
   ingredients: PropTypes.string.isRequired,
-  onDeleteContact: PropTypes.func.isRequired,
+  onAddToCart: PropTypes.func.isRequired,
 };
 
 export default PizzaItem;
