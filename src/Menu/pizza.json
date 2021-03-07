@@ -1,0 +1,69 @@
+[
+  {
+    "name": "cap",
+    "ingredients": {
+      "dough": 1,
+      "tomato_sauce": 1,
+      "onion": 2,
+      "sausage": 2,
+      "mashroom": 3,
+      "cheese": 1
+    }
+  },
+  {
+    "name": "onions",
+    "ingredients": {
+      "dough": 1,
+      "tomato_sauce": 1,
+      "onion": 2,
+      "meat": 1,
+      "cheese": 1
+    }
+  },
+  {
+    "name": "king_one",
+    "ingredients": {
+      "dough": 1,
+      "tomato_sauce": 1,
+      "onion": 2,
+      "mayo": 1,
+      "mashroom": 3,
+      "tomato": 2,
+      "cheese": 3,
+      "dill": 2,
+      "parsley": 2
+    }
+  },
+  {
+    "name": "gavay",
+    "ingredients": {
+      "dough": 1,
+      "tomato_sauce": 1,
+      "onion": 2,
+      "ananas": 1,
+      "cheese": 2
+    }
+  },
+  {
+    "name": "tonno",
+    "ingredients": {
+      "dough": 1,
+      "tomato_sauce": 1,
+      "tuna": 2,
+      "kappers": 1,
+      "cheese": 1
+    }
+  },
+  {
+    "name": "vegeterian",
+    "ingredients": {
+      "dough": 1,
+      "tomato_sauce": 1,
+      "tomato": 2,
+      "kappers": 1,
+      "cucumber": 2,
+      "onion": 2,
+      "cheese": 1
+    }
+  }
+]
