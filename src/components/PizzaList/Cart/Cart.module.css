@@ -1,0 +1,26 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.orderListItem {
+  text-transform: capitalize;
+}
+.buttonOrder {
+  width: 200px;
+  cursor: pointer;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-color: #bc8f8f;
+}
+.buttonOrder:hover{
+    border: 1px solid #bc8f8f;
+    background-color: rgba(255, 0, 0, 0)
+}

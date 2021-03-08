@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import styles from "./Statistics.module.css";
-import Notification from "../PizzaList/Notification/Notification";
+import Notification from "../Notification/Notification";
 
 function Statistics({ orders, pizza }) {
   //Get list all pizza in orders
@@ -43,7 +43,7 @@ function Statistics({ orders, pizza }) {
     .map((ingredient) => ingredient[0]);
 
   return (
-    <>
+    <div className={styles.statistics}>
       <h3 className={styles.titleStatistics}>Popular pizza</h3>
       {orders.length > 0 ? (
         <>
@@ -53,7 +53,7 @@ function Statistics({ orders, pizza }) {
             ))}
           </ol>
           <h3>Ingredients for popular pizza</h3>
-          <div>{ingredients.join(", ")} </div>
+          <div className={styles.ingredients}>{ingredients.join(", ")} </div>
         </>
       ) : (
         <Notification
@@ -61,7 +61,7 @@ function Statistics({ orders, pizza }) {
 We have no statistics"
         />
       )}
-    </>
+    </div>
   );
 }
 Statistics.propTypes = {

@@ -2,13 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './PizzaItem.module.css';
 
-const  PizzaItem = ({ name, ingredients, onAddToCart }) => (
-  <>
-    <span className={styles.pizzaCart} onClick={() => onAddToCart({name})}>
-     <div class={styles.pizzaName}>{name}</div>
-     <div class={styles.pizzaingredients}>{ingredients}</div>
-    </span>
-  </>
+const PizzaItem = ({ name, ingredients, onAddToCart }) => (
+  <div className={styles.pizzaCard} onClick={() => onAddToCart({ name })}>
+    <div className={styles.pizzaName}>{name}</div>
+    <div className={styles.pizzaIngredients}>{ingredients}</div>
+  </div>
 );
 PizzaItem.propTypes = {
   name: PropTypes.string.isRequired,

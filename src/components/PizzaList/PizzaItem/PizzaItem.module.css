@@ -1,0 +1,20 @@
+.pizzaCard{
+    width: 150px;
+    height: 80px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+}
+.pizzaCard:hover{
+    transform: scale(1.2)
+}
+.pizzaName{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #CD5C5C;
+}
+
+.pizzaIngredients{
+font-size: 12px;
+font-style: italic;
+}
